@@ -1,5 +1,5 @@
 body {
-  margin: 0;
+  margin: 0.5rem;
   font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
     'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
     sans-serif;
@@ -11,3 +11,94 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+
+
+.navbar{
+  background: linear-gradient(to bottom, #F55A5A, #D14848);
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2), inset 0 1px 0 rgba(255, 255, 255, 0.6);
+  border-radius: 4px;
+  height: 5vw; 
+}
+
+.navIcon{
+  width: 3rem;
+  height: 2rem;
+  position: absolute;
+  top: 5%;
+  left: 46%;
+}
+
+.navText{
+  display: flex;
+  position: absolute;
+  top: 3%;
+  right: 40%; 
+}
+
+.card{
+  display: flex;
+  margin: 1.5rem auto;
+  justify-content: space-around;
+  width: 45vw;
+  height: 60vh;
+}
+
+.image{
+  width: 20vw;
+  height: 60vh;
+  margin-right: 1rem;
+  border-radius: 5%;
+  object-fit: cover;
+}
+
+.line1{
+  display: flex;
+  position:relative;
+  top: 5%;
+}
+
+.locationIcon{
+  width: 2rem;
+  height: 0.6rem;
+}
+
+.location{
+  text-transform: uppercase;
+  font-size: 0.64rem;
+  position: absolute;
+  left: 7%;
+  margin-top: -0.2rem;
+}
+
+.link {
+  text-decoration: underline;
+  font-size: 0.64rem;
+  color: #918E9B;
+  cursor:pointer;
+  position: absolute;
+  left: 30%;
+  top: 6%;
+  margin-top: -0.2rem;
+}
+
+.title{
+  position: absolute;
+  margin-top: -10%;
+  font-size: 1.5625rem;
+}
+
+.dates{
+  font-weight: bold;
+  font-size: 0.64rem;
+}
+
+.info{
+  width: 85%;
+  font-size: 0.64rem;
+}
+.card:not(:last-child) {
+  border-bottom: 1px solid #ccc;
+  padding-bottom: 1rem;
+}
+
+
